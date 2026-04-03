@@ -1,0 +1,148 @@
+body {
+
+margin: 0;
+font-family: Arial, sans-serif;
+color: #1a1a1a;
+
+}
+
+/* Navbar */
+
+.navbar {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 40px;
+background: white;
+
+}
+
+.navbar img {
+
+height: 50px;
+
+}
+
+.navbar nav a {
+
+margin-left: 20px;
+text-decoration: none;
+color: #1a1a1a;
+font-weight: 500;
+
+}
+
+/* Hero */
+
+.hero {
+
+background: #1f2f5b;
+color: white;
+padding: 120px 40px;
+text-align: center;
+
+}
+
+.hero h1 {
+
+font-size: 42px;
+margin-bottom: 20px;
+
+}
+
+.hero p {
+
+font-size: 18px;
+margin-bottom: 30px;
+
+}
+
+.btn {
+
+background: #2c4cff;
+color: white;
+padding: 14px 28px;
+text-decoration: none;
+border-radius: 4px;
+
+}
+
+/* Services */
+
+.services {
+
+padding: 80px 40px;
+text-align: center;
+
+}
+
+.service-grid {
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+
+}
+
+.card {
+
+padding: 25px;
+background: #f5f7fa;
+
+}
+
+/* Why */
+
+.why {
+
+padding: 80px 40px;
+background: #fafafa;
+
+}
+
+.why-grid {
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+
+}
+
+/* Process */
+
+.process {
+
+padding: 80px 40px;
+
+}
+
+.process-grid {
+
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px;
+
+}
+
+/* CTA */
+
+.cta {
+
+background: #1f2f5b;
+color: white;
+padding: 80px 40px;
+text-align: center;
+
+}
+
+/* Footer */
+
+footer {
+
+padding: 20px;
+background: #111;
+color: white;
+text-align: center;
+
+}
